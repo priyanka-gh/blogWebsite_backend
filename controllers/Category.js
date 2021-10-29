@@ -1,4 +1,4 @@
-const Category=require("../models/category")
+const Category=require("../models/Category")
 
 exports.getCategoryById=(req,res,next,id)=>{
     Category.findById(id)
