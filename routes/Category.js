@@ -1,7 +1,7 @@
 const express=require("express")
 const router=express.Router()
 
-const{getCategoryById,createCategory, getCategory, getAllCategory, updateCategory, removeCategory}=require("../controllers/category")
+const{getCategoryById,createCategory, getCategory, getAllCategory, updateCategory, removeCategory}=require("../controllers/Category")
 const{isSignedIn, isAdmin, isAuthenticated}=require("../controllers/User")
 const{getUserById}=require("../controllers/Blog")
 
