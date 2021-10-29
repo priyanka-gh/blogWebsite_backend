@@ -27,7 +27,7 @@ var bodyParser=require("body-parser")
 
 //myRoutes
 
-const userRoutes=require("./routes/user");
+const userRoutes=require("./routes/User");
 const blogRoutes=require("./routes/Blog");
 const categoryRoutes=require("./routes/Category")
 const likesRoutes=require("./routes/Likes")
