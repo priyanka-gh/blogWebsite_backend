@@ -57,7 +57,7 @@ app.use("/api",likesRoutes)
 
 //ports
 
-const port=process.env.PORT || 8000;
+const port = process.env.PORT || 8000;
 
 //starting a server
 
